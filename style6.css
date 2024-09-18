@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* NavBar */
+
+.navbar {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    transform-origin: top;
+    z-index: 1000;
+}
+
+.navbar ul {
+    margin: 0%;
+}
+
+.navbar img {
+    padding-left: 30px;
+    margin-top: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.navbar li {
+    display: inline;
+    text-align: left;
+    list-style-type: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: large;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    margin-right: 30px;
+    margin-left: 30px;
+    float: right;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.navbar a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+/* MOI */
+
+.store {
+    padding-top: 80px;
+}
+
+.moi {
+    background-color: white;
+    display: flex;
+}
+
+.moi img {
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+    position: relative;
+    left: 30px;
+}
+
+.text {
+    position: relative;
+    left: 50px;
+}
+
+.moi h4 {
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.moi p {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.moi p1 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Sunway */
+
+.sunway {
+    background-color: black;
+    display: flex;
+}
+
+.sunway img {
+    width: 420px;
+    height: 300px;
+    margin: 30px;
+    position: relative;
+    left: 1030px;
+}
+
+.sunway h4 {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.text2 {
+    text-align: right;
+    position: relative;
+    top: 25px;
+    left: 60px;
+}
+
+.sunway p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sunway p1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Tanglin */
+
+.tanglin {
+    background-color: white;
+    display: flex;
+}
+
+.tanglin img {
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+    position: relative;
+    left: 30px;
+}
+
+.text3 {
+    position: relative;
+    left: 50px;
+    top: 35px;
+}
+
+.tanglin h4 {
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.tanglin p {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tanglin p1 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    width: auto;
+    height: 410px;
+    position: relative;
+    top: 60px;
+}
+
+.foot {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Expertice */
+
+.expertice {
+    margin-left: 35px;
+    position: relative;
+    top: 30px;
+}
+
+.expertice h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    position: relative;
+    left: 90px;
+    color: white;
+}
+
+.expertice p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+    color: white;
+}
+
+.divider3 hr {
+    position: relative;
+    bottom: 50px;
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 230px;
+    margin-top: 35px;
+    position: relative;
+    left: 150px;
+}
+
+.stuffs {
+    display: flex;
+    position: relative;
+    left: 17px;
+}
+
+/* Values */
+
+.values {
+    position: relative;
+    left: 230px;
+    margin-top: 30px;
+}
+
+.values h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.values p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+/* Partners */
+
+.partners {
+    position: relative;
+    left: 320px;
+    margin-top: 30px;
+}
+
+.partners h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.partners p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+/* Customers */
+
+.customers {
+    position: relative;
+    left: 400px;
+    margin-top: 30px;
+}
+
+.customers h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.customers p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.vl2 {
+    border-left: 1px solid white;
+    height: 232px;
+    margin-top: 40px;
+    position: relative;
+    left: 400px;
+}
+
+/* Contact */
+
+.contact {
+    position: relative;
+    left: 600px;
+    margin-top: 10px;
+}
+
+.contact h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.twt {
+    position: relative;
+    bottom: 30px;
+}
+
+.fb {
+    position: relative;
+    bottom: 60px;
+}
+
+.ig img {
+    width: 40px;
+    height: 40px;
+}
+
+.twt img {
+    width: 40px;
+    height: 35px;
+}
+
+.fb img {
+    width: 35px;
+    height: 35px;
+}
+
+.socmed p{
+    display: flex;
+    color: white;
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+}
+
+/* Creds */
+
+.terms {
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+  @media screen and (max-width:820px) {
+    .content {
+        width: 100%;
+    }
+}

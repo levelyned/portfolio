@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* NavBar */
+
+.navbar {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    transform-origin: top;
+    z-index: 1000;
+}
+
+.navbar ul {
+    margin: 0%;
+}
+
+.navbar img {
+    padding-left: 30px;
+    margin-top: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.navbar li {
+    display: inline;
+    text-align: left;
+    list-style-type: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: large;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    margin-right: 30px;
+    margin-left: 30px;
+    float: right;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.navbar a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Navbar Language */
+
+.navbar2 {
+    display: flex;
+}
+
+.language {
+    display: flex;
+    margin-top: 75px;
+}
+
+#globe {
+    width: 35px;
+    height: 35px;
+    margin: 13px;
+    margin-left: 60px;
+}
+
+.language p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: gray;
+    position: relative;
+    top: 2px;
+}
+
+.language p:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.symbols {
+    margin: 13px;
+}
+
+.symbols img {
+    width: 25px;
+    position: relative;
+    left: 1000px;
+}
+
+#search {
+    position: relative;
+    left: 1125px;
+    margin-top: 80px;
+}
+
+#cart {
+    position: relative;
+    left: 1155px;
+}
+
+.navigate {
+    position: relative;
+    left: 180px;
+    top: 7px;
+    margin-top: 70px;
+}
+
+.navigate li{
+    display: inline;
+    list-style: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    margin: 35px;
+    justify-content: center;
+}
+
+.navigate a {
+    color: gray;
+    text-decoration: none;
+}
+
+.navigate a:hover {
+    text-decoration: underline;
+}
+
+.divider hr {
+    border-top: 1px solid darkgray;
+    width: 1500px;
+}
+
+/* Banner */
+
+.bannerpage img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Mouse */
+
+.headset h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 30px;
+    position: relative;
+    bottom: 13px;
+}
+
+.headset2 h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 55px;
+}
+
+.headset2 p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 80px;
+}
+
+.headset2 h4 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 104px;
+}
+
+.headset2 button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border-radius: 25px;
+    width: 140px;
+    height: 35px;
+    position: relative;
+    bottom: 120px;
+    background-color: white;
+}
+
+.headset2 button:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+.headset2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    left: 60px; */
+    /* gap: 100px; */
+}
+
+.headset3 {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius:10px;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.27);
+    transition: .4s;
+    background: white;
+}
+
+.headset3:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+
+.headset3 img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.divider2 hr {
+    margin-top: 30px;
+}
+
+/* Keyboard */
+
+.keyboard h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 30px;
+    position: relative;
+    bottom: 13px;
+}
+
+.keyboard2 h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 55px;
+}
+
+.keyboard2 p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 80px;
+}
+
+.keyboard2 h4 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 104px;
+}
+
+.keyboard2 button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border-radius: 25px;
+    width: 140px;
+    height: 35px;
+    position: relative;
+    bottom: 120px;
+    background-color: white;
+}
+
+.keyboard2 button:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+.keyboard2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    left: 60px; */
+    /* gap: 100px; */
+}
+
+.keyboard3 {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius:10px;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.27);
+    transition: .4s;
+    background: white;
+}
+
+.keyboard3:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+
+.keyboard3 img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Mouse */
+
+.mouse h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 30px;
+    position: relative;
+    bottom: 13px;
+}
+
+.mouse2 h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 55px;
+}
+
+.mouse2 p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 80px;
+}
+
+.mouse2 h4 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 104px;
+}
+
+.mouse2 button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border-radius: 25px;
+    width: 140px;
+    height: 35px;
+    position: relative;
+    bottom: 120px;
+    background-color: white;
+}
+
+.mouse2 button:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+.mouse2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    left: 60px; */
+    /* gap: 100px; */
+}
+
+.mouse3 {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius:10px;
+    padding-top: 10px;
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.27);
+    transition: .4s;
+    background: white;
+}
+
+.mouse3:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+
+.mouse3 img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Accessories */
+
+.accessories h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 30px;
+    position: relative;
+    bottom: 13px;
+}
+
+.accessories2 h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 55px;
+}
+
+.accessories2 p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 80px;
+}
+
+.accessories2 h4 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 104px;
+}
+
+.accessories2 button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border-radius: 25px;
+    width: 140px;
+    height: 35px;
+    position: relative;
+    bottom: 120px;
+    background-color: white;
+}
+
+.accessories2 button:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+.accessories2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    left: 60px; */
+    /* gap: 100px; */
+}
+
+.accessories3 {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius:10px;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.27);
+    transition: .4s;
+    background: white;
+}
+
+.accessories3:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+
+.accessories3 img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    width: auto;
+    height: 410px;
+    position: relative;
+    top: 60px;
+}
+
+.foot {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Expertice */
+
+.expertice {
+    margin-left: 35px;
+    position: relative;
+    top: 30px;
+}
+
+.expertice h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    position: relative;
+    left: 90px;
+    color: white;
+}
+
+.expertice p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+    color: white;
+}
+
+.divider3 hr {
+    position: relative;
+    bottom: 50px;
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 230px;
+    margin-top: 35px;
+    position: relative;
+    left: 150px;
+}
+
+.stuffs {
+    display: flex;
+    position: relative;
+    left: 17px;
+}
+
+/* Values */
+
+.values {
+    position: relative;
+    left: 230px;
+    margin-top: 30px;
+}
+
+.values h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.values p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+/* Partners */
+
+.partners {
+    position: relative;
+    left: 320px;
+    margin-top: 30px;
+}
+
+.partners h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.partners p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+/* Customers */
+
+.customers {
+    position: relative;
+    left: 400px;
+    margin-top: 30px;
+}
+
+.customers h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.customers p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.vl2 {
+    border-left: 1px solid white;
+    height: 232px;
+    margin-top: 40px;
+    position: relative;
+    left: 400px;
+}
+
+/* Contact */
+
+.contact {
+    position: relative;
+    left: 600px;
+    margin-top: 10px;
+}
+
+.contact h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.twt {
+    position: relative;
+    bottom: 30px;
+}
+
+.fb {
+    position: relative;
+    bottom: 60px;
+}
+
+.ig img {
+    width: 40px;
+    height: 40px;
+}
+
+.twt img {
+    width: 40px;
+    height: 35px;
+}
+
+.fb img {
+    width: 35px;
+    height: 35px;
+}
+
+.sosmed p{
+    display: flex;
+    color: white;
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+}
+
+/* Creds */
+
+.terms {
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+  @media screen and (max-width:820px) {
+    .content {
+        width: 100%;
+    }
+    .navigate {
+        display: inline;
+    }
+    .bannerpage {
+        width: 100%;
+    }
+}
